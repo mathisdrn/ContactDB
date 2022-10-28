@@ -5,10 +5,10 @@ $req = $bdd->prepare("DELETE FROM users WHERE ID = :ID");
 $req->bindParam(':ID', $_POST['ID'], PDO::PARAM_INT);
 $req->execute();
 $req->closeCursor();
-header("Location: /");
+header("Location: contact/");
 exit;
 } else {
-    header("Location: /?e=1");
+    header("Location: index.php/?e=1");
     exit;
 }
 
