@@ -1,0 +1,62 @@
+* {
+    font-family: 'Hind Guntur', monospace, sans-serif;
+}
+/* 'Hind Guntur', */
+
+table {
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Btn {
+    background-color: white;
+    font-size: 20px;
+    width: 90%;
+    border: none;
+}
+
+label {
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+@media all {
+    .svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+ 
+@media all and (max-width: 800px) {
+    .svg {
+        width: 20px;
+    }
+}
+ 
+@media all and (max-width: 480px) {
+    .svg {
+        width: 15px;
+    }
+}
+
+.title {
+    font-size: 18px;
+    color: black;
+}
+
+.sousTitle {
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.paragraphe {
+    font-size: 13px;
+    color: #404040;
+}
